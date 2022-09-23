@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.2rem solid black;
+  width: 100%;
+  font-family: "Whitney Semibold Regular";
+  padding: 1rem 0;
+}
+
+.nav-button-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding-right: 2rem;
+  align-items: center;
+  margin-right: 1.5rem;
+}
+
+.nav-bar-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Whitney Semibold Regular";
+}
+
+.nav-bar-buttons:hover {
+  box-shadow: 0 4px 1.8rem 1px rgba(34, 34, 34, 0.26);
+  transition-duration: 250ms;
+  color: blue;
+}
+
+.home-icon-container {
+    padding-left: 2rem;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: black;
+}
+
+.logo-text {
+    text-decoration: none;
+}

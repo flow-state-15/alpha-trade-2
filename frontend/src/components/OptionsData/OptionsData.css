@@ -1,0 +1,88 @@
+.strike-date-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.strike-middle {
+  width: fit-content;
+}
+
+.opt-data-col {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.strike-map-card-wrap {
+  width: 100%;
+  background-color: white;
+}
+
+.strike-date-wrap {
+  width: 100%;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+
+.strike-date-wrap:hover {
+  background-color: #edf5fb;
+}
+
+.options-data-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  /* margin-top: 3  rem; */
+}
+
+.data-underlying-data-wrap {
+    width: 100%;
+}
+
+.options-data-wrap h1 {
+    padding: 1rem;
+}
+
+.data-underlying-col-header {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.strike-itm {
+  background-color: white;
+}
+
+.strike-otm {
+  /* background-color: #F5F5F5; */
+}
+
+.strike-map-header-row {
+  border-bottom: 1px solid #C0C0C0;
+  font-size: 1.2rem;
+  text-align: center;
+  /* overflow-wrap: break-word; */
+  /* text-align: center; */
+}
+
+.strike-map-item-col {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.strike-map-data-row-hover {
+  transition-property: background-color;
+  transition-duration: 100ms;
+}
+
+.strike-map-data-row-hover:hover {
+  background-color: #edf5fb;
+}
+
+.contract-buy-sell {
+  color: blue;
+  /* cursor: pointer; */
+}

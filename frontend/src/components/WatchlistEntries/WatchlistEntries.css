@@ -1,0 +1,49 @@
+.sidebar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* border: 1px solid black; */
+}
+
+.sb-content-item-name-wrap {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center;
+    justify-content: center; */
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.sb-content-item-symbol {
+    cursor: pointer;
+    border: none;
+    /* padding: 0.3rem 1rem; */
+    background-color: white;
+    color: blue;
+}
+
+.sidebar-name-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.edit-link {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sb-content-item-col {
+    text-align: left !important;
+    padding: none !important;
+}
+
+.sb-grid-container:hover {
+    overflow-y: auto !important;
+    scrollbar-width: 0.05rem !important;
+}
+
+.sb-grid-container::webkit-scrollbar {
+    width: 0.05rem !important;
+}
